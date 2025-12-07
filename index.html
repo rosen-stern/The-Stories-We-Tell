@@ -1,135 +1,149 @@
-<!DOCTYPE html>
 <html>
 
 <head>
-    <link rel="stylesheet" href="main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="spiral.css">
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=content_copy" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
     <script src="citations.js" defer></script>
-    <script src="interactions.js" defer></script>
+    <script src="spiral.js" defer></script>
+
 
 
 </head>
 
 <body>
 
-    <div class="content">
-        <p>Stories are all we have.</p>
+
+    <div id="firefox-error">
+        <div>
+            Sorry, Firefox is not supported. Please use Chrome or Edge.
+        </div>
     </div>
 
-    <div class="content initial_hide">
-        <p>But online, things have become very standardized.</p>
-    </div>
+    <div class="js-spiral" id="spiral">
 
-    <div class="content initial_hide">
-        <p>We get notifications,</p>
-        <p style="transition-delay: 1s;">read a post,</p>
-        <p style="transition-delay: 2s;">and share articles and videos.</p>
-    </div>
+        <div class="js-section" data-cite="learnmore">
+            <div>in an infinite spiral.</div>
+        </div>
 
-    <div class="content initial_hide">
-        <p>Always in the same linear way,</p>
-        <p style="transition-delay: 1s;">with margins and padding.</p>
-    </div>
-
-
-    <div class="content initial_hide">
-        <p>Almost always in the same font.</p>
-    </div>
-
-    <div class="content initial_hide">
-        <p>But how might our stories look if we expressed them as freely on the internet as we do to each other?</p>
-    </div>
-
-
-    <div class="content initial_hide">
-        <p>What would an oral story look like in 1s and 0s?</p>
-    </div>
-
-
-    <div class="content initial_hide">
-        <p>What if stories rained down your web page?</p>
-    </div>
-
-
-    <div class="content initial_hide">
-        <p>Or were hidden – in the dark – to be found – by you?</p>
-    </div>
-
-    <div class="content initial_hide">
-        <p>What if we could include the context around that photo, that memory,</p>
-        <p style="transition-delay: 1s;">to pass on to others?</p>
-    </div>
-
-    <div class="content initial_hide">
-        <p>What if the code below</p>
-        <p style="transition-delay: 1s;">was written in something other than</p>
-        <p style="transition-delay: 2s;">the English-centric coding languages today?</p>
-    </div>
-
-    <div class="content initial_hide">
-        <p>Our worldviews are shaped by the matrices of our communities.</p>
-    </div>
-
-    <div class="content initial_hide">
-        <p>But when our community is the internet, where does our worldview come from?</p>
-    </div>
-
-
-    <div class="content initial_hide">
-        <p>The truths we're recording on the internet may be different</p>
-        <p style="transition-delay: 1s;">depending on who is writing the story</p>
-        <p style="transition-delay: 2s;">and for whom.</p>
-    </div>
-
-    <div class="content initial_hide">
-        <p>And there's more to life than "objective truth",</p>
-        <p style="transition-delay: 1s;">for capturing all known knowledge.</p>
-    </div>
-
-    <div class="content initial_hide">
-        <p>What might our digital community be like if we wanted more than just knowledge?</p>
-    </div>
-
-
-    <div class="content initial_hide">
-        <p>What if we wanted experience?</p>
-        <p style="transition-delay: 1s;">Or reciprocity?</p>
-    </div>
-
-    <div class="content initial_hide">
-        <p>How would we understand the world?</p>
-        <p style="transition-delay: 1s;">How would we understand each other better?</p>
-    </div>
-
-
-    <div class="content initial_hide">
-        <p>Stories are built on stories</p>
-        <p style="transition-delay: 1s;">are built on stories</p>
-        <p style="transition-delay: 2s;">are built on stories.</p>
-    </div>
-
-    <div class="content initial_hide">
-        <p>They're all we are.</p>
-        <p style="transition-delay: 1s;">Learn more about this project</p>
-    </div>
-
-
-    <div id="citations" class="initial_hide">
-        <h1>Citations</h1>
-
-        <div id="card_wrapper">
-            <div id="empty_state">
-                Explore to find more citations, or you can always use the "reveal all" button at the bottom.
-
-            </div>
-
+        <div class="js-section">
+            <div>all wrapped up</div>
         </div>
 
 
-        <div id="reveal_all" onclick="revealAll()"></div>
+        <div class="js-section">
+            <div>because we are all we've been and will be,</div>
+        </div>
+
+
+        <div class="js-section">
+            <div>ever inward,</div>
+        </div>
+
+
+        <div class="js-section">
+            <div>Spirals that spin ever outward,</div>
+        </div>
+
+
+        <div class="js-section">
+            <div>where do spirals fit in?</div>
+        </div>
+
+
+
+        <div class="js-section">
+            <div>In a world of linear thinking,</div>
+        </div>
+
+
+        <div class="js-section" data-cite="corbett">
+            <div>Coding in a language and culture other than English?</div>
+        </div>
+        <div class="js-section">
+            <div>What might the opposite look like?</div>
+        </div>
+        <div class="js-section">
+            <div>In a world of linear thinking,</div>
+            <div>of linear coding,</div>
+        </div>
+
+
+        <div class="js-section">
+            <div>Circular thinking? Square thinking?</div>
+        </div>
+        <div class="js-section">
+            <div>what would the opposite look like?</div>
+        </div>
+        <div class="js-section">
+            <div>In a culture of linear thinking,</div>
+        </div>
+        <div class="js-section" data-cite="smithsonian">
+            <div>What about the stories behind the stories?</div>
+            <div>What about the stories that make the stories?</div>
+        </div>
+        <div class="js-section" data-cite="tovias">
+            <div>Which side of the stories are we hearing? Which sides aren't we listening to?</div>
+        </div>
+        <div class="js-section">
+            <div>what are we really looking for?</div>
+        </div>
+        <div class="js-section">
+            <div>When we search for the lonely pearl of truth,</div>
+        </div>
+        <div class="js-section">
+            <div>The context in which we live.</div>
+        </div>
+        <div class="js-section" data-cite="cordova">
+            <div>the matrix of life, and the matricies of our communities.</div>
+        </div>
+        <div class="js-section">
+            <div>the communities that make us,</div>
+        </div>
+        <div class="js-section">
+            <div>But our "truths" come from the communities we live in,</div>
+        </div>
+        <div class="js-section">
+            <div>a "truth be told".</div>
+        </div>
+        <div class="js-section">
+            <div>a "truth" to be found,</div>
+        </div>
+        <div class="js-section">
+            <div>There's always a "truth" to be seeked out,</div>
+        </div>
+        <div class="js-section">
+            <div>point A always leads to point B.</div>
+        </div>
+
+        <div class="js-section">
+            <div>In this linear way of thinking,</div>
+        </div>
+
+        <div class="js-section" data-cite="burkhart">
+            <div>Generally, Western philosophy says:</div>
+            <div>The more knowledge, the better.</div>
+            <div class="secondary-text"><i>Press left arrow to continue.</i></div>
+        </div>
+
+
+
+
     </div>
 
+
+    <div id="citation-wrapper">
+        <div id="citation-content">
+
+        </div>
+        <div id="copy-icon">
+            <span title="Copy to clipboard" class="material-symbols-outlined">content_copy</span>
+        </div>
+    </div>
 
 </body>
 
